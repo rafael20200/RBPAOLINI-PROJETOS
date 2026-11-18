@@ -1,0 +1,17 @@
+RBAOLINI PROJETOS - ATUALIZAÇÃO
+
+Inclui index.html, portfolio.html dinâmico, admin.html com editor Monaco, projeto.html, scripts JS e SQL de atualização.
+
+PUBLICAÇÃO:
+1) Faça backup do repositório.
+2) No Supabase SQL Editor execute supabase/upgrade-portfolio.sql. Ele pressupõe que setup.sql original já foi executado e que existe a função is_portfolio_admin().
+3) Confirme bucket Storage project-images público.
+4) Envie os arquivos deste pacote para a raiz/pastas correspondentes do repositório, substituindo index.html, portfolio.html, admin.html, assets/js/admin.js e adicionando os demais arquivos.
+5) Preserve assets/js/supabase-config.js atual (URL e chave publishable) e assets/css/style.css / assets/js/main.js existentes.
+6) No admin, salve primeiro o projeto. Depois selecione o projeto para cadastrar mídias e códigos.
+7) Marque Publicar no site.
+
+O editor organiza arquivos por caminho virtual, ex.: src/controllers/Login.php. Os conteúdos ficam no Supabase, não são gravados fisicamente no GitHub.
+Monaco oferece realce de sintaxe e formatação quando o suporte da linguagem está disponível. Algumas linguagens podem exigir configuração adicional.
+Todo código marcado como publicado ficará público. Nunca inclua senhas, tokens, service_role ou credenciais.
+Para vídeo, use URL embed: https://www.youtube.com/embed/ID ou https://player.vimeo.com/video/ID.
